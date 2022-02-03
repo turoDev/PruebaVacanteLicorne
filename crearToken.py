@@ -17,7 +17,7 @@
     Formato:                    Los caracteres deberán ser seleccionados de manera dinámica y aleatoria,
                                 por lo que los tokens deberan ser diferentes.
                                 
-    Obligatorio:                No se permite usar más de un ciclo iterativo (foor, while, etc.)
+    Obligatorio:                No se permite usar más de un ciclo iterativo (for, while, etc.)
 
     Ejemplo de token:           3a35ADAE0Ee4DE1
 
