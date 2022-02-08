@@ -34,3 +34,18 @@
 
 """
 
+import random
+
+
+def generateToken():
+    listChar = list('ABCDEabcde012345')
+    token = ''
+    
+    for x in range(15):
+        token += random.choice(listChar)
+
+
+    return token
+
+
+print(generateToken())

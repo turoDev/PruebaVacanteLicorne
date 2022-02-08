@@ -19,6 +19,14 @@
      * 
     */
 
+    function middleware($token){
+        if (preg_match("/^[a-eA-E0-5]{15,15}+$/i", $token)) {
+           echo "Token formato vàlido\n";
+        }else{
+            echo "Token formato inválido\n";
+        }
+    }
+
     middleware($argv[1]);
 
 ?>
